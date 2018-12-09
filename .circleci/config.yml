@@ -17,7 +17,7 @@ jobs:
           command: 'apt-get update && apt-get install -y wget'
       - run:
           name: Install CMAKE
-          command: 'wget http://www.cmake.org/files/v3.10/cmake-3.10.2.tar.gz'
+          command: 'wget http://www.cmake.org/files/v3.10/cmake-3.10.2.tar.gz && tar xzf cmake-3.10.2.tar.gz && make && make install'
       - run:
           name: Creating Build Files
           command: 'cmake -H. -Bbuild'
