@@ -16,6 +16,9 @@ jobs:
           name: Installing wget
           command: 'apt-get update && apt-get install -y wget'
       - run:
+          name: Installing make
+          command: 'apt-get update && apt-get install -y make'
+      - run:
           name: Install CMAKE
           command: 'wget http://www.cmake.org/files/v3.10/cmake-3.10.2.tar.gz && tar xzf cmake-3.10.2.tar.gz && make && make install'
       - run:
