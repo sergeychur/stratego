@@ -1,3 +1,0 @@
-/home/sergey/stratego/stratego/CMakeFiles/rebuild_cache.dir
-/home/sergey/stratego/stratego/CMakeFiles/stratego.dir
-/home/sergey/stratego/stratego/CMakeFiles/edit_cache.dir
