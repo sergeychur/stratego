@@ -1,0 +1,2 @@
+/usr/bin/ar qc libNet.a  CMakeFiles/Net.dir/src/ClientNetObject.cpp.o CMakeFiles/Net.dir/src/ClientNetObjectImpl.cpp.o CMakeFiles/Net.dir/src/SerializationOperation.cpp.o CMakeFiles/Net.dir/src/ServerNetObject.cpp.o CMakeFiles/Net.dir/src/ServerNetObjectImpl.cpp.o CMakeFiles/Net.dir/src/SubSock.cpp.o
+/usr/bin/ranlib libNet.a

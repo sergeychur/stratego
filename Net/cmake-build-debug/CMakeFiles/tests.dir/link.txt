@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tests.dir/test/gtest.cpp.o CMakeFiles/tests.dir/test/serialization_operation_test.cpp.o  -o tests -Wl,-rpath,/usr/local/lib /usr/local/lib/libboost_serialization.so /usr/local/lib/libboost_system.so /usr/lib/libgtest.a libNet.a /usr/local/lib/libboost_serialization.so /usr/local/lib/libboost_system.so -pthread 
