@@ -7,6 +7,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -pthread")
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+
+find_package(Threads REQUIRED)
 
 # Boost magic
 set(BOOST_DIR ../shared_files/boost_1_67_0)
@@ -36,3 +39,10 @@ if(Boost_FOUND)
 
 
 endif()
+
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
+
+add_executable(tests test/gtest.cpp test/serialization_operation_test.cpp)
+target_link_libraries(tests ${Boost_LIBRARIES} Threads::Threads ${GTEST_LIBRARIES} Net)
+
