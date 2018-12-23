@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="server_tests"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\Net\;CMake Files\..\shared_files\;CMake Files\..\shared_files\googletest\;CMake Files\..\shared_files\googletest\googlemock\;CMake Files\..\shared_files\googletest\googletest\;CMake Files\..\shared_files\googletest\googletest\cmake\;CMake Files\server\;CMake Files\server\game\;CMake Files\server\xml_make\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests">
+				<Option output="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../server_side/server/game/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../shared_files/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../Net/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../shared_files"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/boost_1_67_0"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock/include"/>
+					<Add directory="/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../shared_files/googletest/googlemock/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../shared_files/googletest/googlemock/gtest/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../server_side/server/game/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../shared_files/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../Net/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../shared_files"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/boost_1_67_0"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock/include"/>
+					<Add directory="/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../shared_files/googletest/googlemock/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/../../shared_files/googletest/googlemock/gtest/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/include"/>
+					<Add directory="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/gmock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/src/base_tests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/src/gtest.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/src/map_tests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/src/player_tests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/src/unit_tests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/shared_files/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/../Net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\Net\"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/../shared_files/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\shared_files\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/../shared_files/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\shared_files\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/../shared_files/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\..\shared_files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/server/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\game\"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/server/xml_make/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\xml_make\"/>
+		</Unit>
+		<Unit filename="/home/sergey/CLionProjects/TP_CPP_PROJECT/server_side/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
